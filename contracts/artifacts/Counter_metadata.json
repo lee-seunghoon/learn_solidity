@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "incrementCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Counter.sol": "Counter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Counter.sol": {
+			"keccak256": "0xaaa9631507a18bcdd57eb07b235c539de81c589b25cdf0e05a2f3bb7d0052bdd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a174af26510e8377d17dd124b6a98843e50a84ce160a6be787c6231ff9794552",
+				"dweb:/ipfs/QmVU4AXLD7CsNSniExCvSZZEkWn8QPPHVL71qVNJvso2x7"
+			]
+		}
+	},
+	"version": 1
+}
