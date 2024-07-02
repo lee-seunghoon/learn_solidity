@@ -2,9 +2,8 @@
 pragma solidity ^0.8.0;
 
 contract MyContract {
-
     // State Variables
-    int256 myInt = 1; 
+    int256 myInt = 1;
     uint public myUint = 1;
     uint256 public myUint256   = 1;
     uint8 public myUint8 = 1;
@@ -13,7 +12,7 @@ contract MyContract {
     bytes32 public myBytes32 = "Hello, world";
 
     // address variable == username & meta info in block chain system
-    address public myAddress = 0xd9145CCE52D386f254917e481eB44e9943F39138; 
+    address public myAddress = 0xd9145CCE52D386f254917e481eB44e9943F39138;
 
     struct MyStruct {
         uint256 myUint256;
@@ -28,4 +27,20 @@ contract MyContract {
         uint value = 1;
         return value;
     }
+
+    // Arrays
+    uint[] public uintArray = [1, 2, 3];
+    string[] public stringArray = ["apple", "banana", "carrot"];
+    string[] public values;
+
+    function addValue(string memory _value) public {
+        values.push(_value);
+    }
+
+    function countValue() public view returns(uint) {
+        return values.length;
+    }
+
+    // 2D Array
+    uint256[][] public array2D = [[1,2,3], [4,5,6]];
 }
